@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.7888182, g: 0.7556785, b: 0.7611117, a: 1}
+  m_IndirectSpecularColor: {r: 0.719994, g: 0.6925572, b: 0.73671365, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -192,7 +192,7 @@ PrefabInstance:
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
@@ -203,22 +203,48 @@ PrefabInstance:
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[0].displayName
-      value: LVL 1
+      value: LEVEL 1
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[0].oneStarTime
-      value: 90
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[0].twoStarTime
-      value: 60
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[0].threeStarTime
-      value: 45
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[1].level
+      value: 
+      objectReference: {fileID: 11400000, guid: eaa30bf69a0d93e4e8d803c03033509b,
+        type: 2}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[1].displayName
+      value: LEVEL 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[1].oneStarTime
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[1].twoStarTime
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[1].threeStarTime
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939642, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
